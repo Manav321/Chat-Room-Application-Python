@@ -36,7 +36,7 @@ def signup(username, password, client, email):
 
 
 # Connection Data
-host = '192.168.29.202'
+host = '10.35.10.33'   # host IP address
 port = 5051
 
 # Starting Server

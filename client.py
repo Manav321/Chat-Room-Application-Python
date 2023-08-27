@@ -17,6 +17,10 @@ from pygments import highlight
 
 # ==================================================
 
+# Connection Data
+host = '10.35.10.33'   # host IP address
+port = 5051
+
 
 class App(tk.Tk):
 
@@ -28,7 +32,7 @@ class App(tk.Tk):
         # connecting to server
         try:
             self.sock = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
-            self.sock.connect(('192.168.29.202', 5051))
+            self.sock.connect((host, port))
 
         # will pop up error box if not connected to server
         except ConnectionRefusedError:
