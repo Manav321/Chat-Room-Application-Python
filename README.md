@@ -46,3 +46,10 @@ Welcome to the Chat Room Application! This user-friendly chat application, built
 5. Upon successful login or registration, the main chat window will open.
 6. Chat with other users by typing in the input field and pressing Enter.
 7. View chat history and active users in their respective sections.
+
+## Screenshots
+
+![Screenshot 2023-08-28 104555](https://github.com/Manav321/Chat-Room-Application-Python/assets/94757193/77369942-7669-4e24-aa4d-b6d048a9ade7)
+
+
+![Screenshot 2023-08-28 104626](https://github.com/Manav321/Chat-Room-Application-Python/assets/94757193/09cfeb06-a9ec-470d-85cc-8b39c3df2189)
