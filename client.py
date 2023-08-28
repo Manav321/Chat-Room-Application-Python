@@ -65,15 +65,15 @@ class App(tk.Tk):
 
         # getting background photo and other photos
         self.background = Image.open("images/10.jpg")
-        self.background = self.background.resize((500, 400), Image.ANTIALIAS)
+        self.background = self.background.resize((500, 400), Image.LANCZOS)
         self.background = ImageTk.PhotoImage(self.background)
 
         self.login_image = Image.open(r'images/3.png')
-        self.login_image = self.login_image.resize((25, 25), Image.ANTIALIAS)
+        self.login_image = self.login_image.resize((25, 25), Image.LANCZOS)
         self.login_image = ImageTk.PhotoImage(self.login_image)
 
         self.sign_up_image = Image.open(r'images/4.png')
-        self.sign_up_image = self.sign_up_image.resize((25, 25), Image.ANTIALIAS)
+        self.sign_up_image = self.sign_up_image.resize((25, 25), Image.LANCZOS)
         self.sign_up_image = ImageTk.PhotoImage(self.sign_up_image)
 
 
@@ -210,11 +210,11 @@ class App(tk.Tk):
         mainChat.configure(bg = "lightgray")
         
         mainChat.background1 = Image.open("images/10.jpg")
-        mainChat.background1 = mainChat.background1.resize((900, 650), Image.ANTIALIAS)
+        mainChat.background1 = mainChat.background1.resize((900, 650), Image.LANCZOS)
         mainChat.background1 = ImageTk.PhotoImage(mainChat.background1)
 
         # mainChat.chatbg = Image.open("images/5.png")
-        # mainChat.chatbg = mainChat.chatbg.resize((50, 50), Image.ANTIALIAS)
+        # mainChat.chatbg = mainChat.chatbg.resize((50, 50), Image.LANCZOS)
         # mainChat.chatbg = ImageTk.PhotoImage(mainChat.chatbg)
 
         mainChat.bgLabel3 = tkinter.Label(mainChat, image = mainChat.background1)
